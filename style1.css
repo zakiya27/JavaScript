@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    background: transparent;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 20px 30px;
+}
+
+.u-section-1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+    padding: 20px 80px;
+    box-shadow: 2px 2px 2px gray;
+    text-align: center;
+    background: rgb(219, 199, 111);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.u-section-1 .u-text-1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.u-section-1 .u-text-2{
+    font-size: 24px;   
+}
+
+.u-section-1 .u-button-1{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 6px;
+    box-shadow: 1px 2px 2px gray;
+}
+
+.u-section-1 .u-button-1:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.155);
+    background: rgb(67, 114, 245);
+}
+
